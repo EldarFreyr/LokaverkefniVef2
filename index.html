@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/01-new.css">
+    <link rel="stylesheet" href="css/02-grid.css">
+    <link rel="stylesheet" href="css/03-tafla.css">
+    <link rel="stylesheet" href="css/05-menues.css">
+    <link rel="stylesheet" href="css/04-form.css">
+    <link rel="stylesheet" href="css/06-popop.css">
+    <link rel="stylesheet" href="css/09-custom.css">
+    <link rel="stylesheet" href="css/07-icomoon.css">
+    <link rel="stylesheet" href="css/08-chatbox.css">
+    <link rel="stylesheet" href="css/10-animation.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+
+</head>
+<body>
+
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle">&#9776;</label>
+    <section class="topmenu">
+      <a href="#"><span class="icon-SmukLogosvg"></span></a>
+      <a href="#">Heim</a>
+      <a href="#midar">Miðar</a>
+      <a href="#Login">Skrá inn</a>
+      <a href="#adaltexti">Um okkur</a>
+    </section>
+  </nav>
+  <header>
+    <h1 class="stort">Smukfest 2025</h1>
+      <section class="center">
+        <div id=slideset6>
+          <div>
+            <img src="Images/2Q.png">
+          </div>
+          <div>
+            <img src="Images/9k.png">
+          </div>
+          <div>
+            <img src="Images/3Q.png">
+          </div>
+        </div>
+    </section>
+  </header>
+  <section di="adaltexti" class="col-2">
+    <article>
+        <div class="text-content">
+            <p>Smukfest (stutt fyrir Skanderborg Festival) er ein stærsta og ástsælasta tónlistarhátíð Danmerkur. Hátíðin er haldin árlega í Skanderborg, fallegum bæ á Austur-Jótlandi, og er sett í fallegum beykiskógi, sem gefur henni viðurnefnið Danmarks Smukkeste Festival (Fegursta hátíð Danmerkur). Ólíkt hefðbundnum hátíðum sem haldnar eru á víðavangi býður Smukfest upp á einstaka og yfirgripsmikla upplifun þar sem tónlistarunnendur geta notið sýninga umkringd náttúru, háum trjám og ævintýralegri stemningu.</p>
+            <p>Hátíðin var stofnuð árið 1980 af litlum vinahópi sem vildi búa til innilegan tónlistarviðburð. Í áranna rás hefur það vaxið í gríðarlega hátíð og laðað að sér tugþúsundir gesta frá Danmörku og víðar. Þrátt fyrir vöxtinn hefur Smukfest tekist að halda í notalega og velkomna andrúmsloftið þar sem hátíðargestir – oft klæddir litríkum búningum og sérkennilegum fylgihlutum – koma saman til að njóta frábærrar tónlistar, góðs matar og samfélags.</p>
+            <p>Þrátt fyrir gríðarlegan vöxt og aukna vinsældir hefur Smukfest tekist að halda í upprunalega andrúmsloftið – afslappaða og notalega stemningu þar sem hátíðargestir, margir hverjir klæddir litríkum búningum og með sérkennilega fylgihluti, koma saman til að gleðjast, njóta tónlistar og mynda tengsl við aðra gesti.</p>
+            <p>Með einstaka umhverfi, frábærri tónlist og lifandi hátíðaranda hefur Smukfest fest sig í sessi sem ein af ástsælustu tónlistarhátíðum Norðurlanda, þar sem gestir snúa aftur ár eftir ár til að upplifa töfra hennar á ný.</p>
+        </div>
+    </article>
+    <article>
+        <div class="slideshow">
+            <section class="center">
+                <div id="slideset6">
+                    <div>
+                      <img src="Images/2Qk.png" alt="Image 1">
+                    </div>
+                    <div>
+                      <img src="Images/2Qq.png" alt="Image 2">
+                    </div>
+                    <div>
+                      <img src="Images/9kk.png" alt="Image 3">
+                    </div>
+                    <div>
+                      <img src="Images/shawn.png" alt="Image 4">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </article>
+</section>
+<table id="midar" class="schedule">
+  <caption>Miðasala</caption>
+  <thead>
+      <tr>
+          <th>HVER</th>
+          <th></span>HVAR</th>
+          <th></span>HVENÆR</th>
+          <th>KAUPA</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td data-label="WHO"">50 Cent</td>
+          <td data-label="WHERE">Smukfest</td>
+          <td data-label="WHEN">6. Ágúst</td>
+          <td data-label="CHECK IN"><button>Kaupa</button></td>
+      </tr>
+      <tr>
+          <td data-label="WHO">Gloria Gaynor</td>
+          <td data-label="WHERE">Smukfest</td>
+          <td data-label="WHEN">7. Ágúst</td>
+          <td data-label="CHECK IN"><button>Kaupa</button></td>
+      </tr>
+      <tr>
+          <td data-label="WHO">Will Smith</td>
+          <td data-label="WHERE">Smukfest</td>
+          <td data-label="WHEN">7. Ágúst</td>
+          <td data-label="CHECK IN"><button>Kaupa</button></td>
+      </tr>
+      <tr>
+          <td data-label="WHO">Martin Garrix</td>
+          <td data-label="WHERE">Smukfest</td>
+          <td data-label="WHEN">8. Ágúst</td>
+          <td data-label="CHECK IN"><button>Kaupa</button></td>
+      </tr>
+      <tr>
+          <td data-label="WHO">Shawn Mendes</td>
+          <td data-label="WHERE">Smukfest</td>
+          <td data-label="WHEN">9. Ágúst</td>
+          <td data-label="CHECK IN"><button>Kaupa</button></td>
+      </tr>
+  </tbody>
+</table>
+<section class="col-2">
+  <details>
+      <summary>Allir artistar á Smukfest</summary>
+      <p>50 Cent - Anna David - Aqua - Dodo & the Dodos - GØK2 - Hugorm - Jess Glynne - Lamin- Maja Francis - Martin Garrix - Mas - Neckbreakker - Nena - Nik & Jay - Red Hot Chilli Pipers - Silvana Imam - Tobias Rahim - Aphaca - BATHSHEBA - Dodo - Eagle-Eye Cherry</p>
+      <img src="images/rwd-icon.svg" alt="">
+    </details>
+    <details>
+      <summary>Staðsetnings Smukefest</summary>
+      <p>Smukefest er staðset Birkevej 20, 8660 Skanderborg, Denmark
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8474.591537801674!2d9.900695585665348!3d56.03713740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c6e56d6215555%3A0x5d7abe89b2b77d22!2sSmukfest!5e1!3m2!1sen!2sis!4v1740481630706!5m2!1sen!2sis" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+      <img src="images/rwd-icon.svg" alt="">
+    </details>
+    <details>
+      <summary>Meira um Smukefest</summary>
+      <p>60.000 daglega gesti, þar af 18.000 aðstoðarmenn, og hátíðarbær á stærð við Fredericia. Eftir 45 ár er Smukfest núna orðin nokkuð stór vél með öllu sem því fylgir. Þannig að ef þú ert að leita að frekari upplýsingum um hátíðina ertu kominn á réttan stað!</p>
+      <img src="images/rwd-icon.svg" alt="">
+    </details>
+    <details>
+      <summary>Afhverju þú á að koma á Smukefest</summary>
+      <p>Smukfest er ein stærsta og skemmtilegasta tónlistarhátíð Danmerkur, haldin árlega í fallegum skógi Skanderborgar. Það sem gerir hátíðina einstaka er ekki bara frábær tónlist, heldur einnig dásamlegt umhverfi, afslöppuð stemning og ógleymanleg upplifun.
+
+        Hátíðin býður upp á fjölbreytta tónlist – allt frá heimsfrægum listamönnum til efnilegra nýliða. Hvort sem þú fílar popp, rokk, hip-hop eða raftónlist, þá finnurðu eitthvað við þitt hæfi. Á Smukfest snýst allt um gleði, samveru og „hygge“ – fullkomið tækifæri til að sleppa sér og njóta lífsins með vinum eða nýjum kunningjum.
+        
+        Auk tónlistar er hægt að njóta góðs matar, flottari drykkja en á venjulegum hátíðum og óvæntra uppákoma sem skapa einstaka stemningu. Að vera umkringdur náttúrunni gerir upplifunina enn magnaðri.
+        
+        Smukfest 2025 lofar að verða einstök hátíð þar sem þú getur skapað minningar sem endast ævilangt. Ekki missa af þessu – gríptu miða og upplifðu töfrana í Skanderborg</p>
+      <img src="images/rwd-icon.svg" alt="">
+    </details>
+</section>
+<footer class="container">
+  <center><h1>Fylstu með okkur</h1></center>
+  <center>
+    <a href="https://x.com/smukfest?lang=en"><span class="icon-twitter"></span></a>
+    <a href="https://www.facebook.com/danmarkssmukkestefestival/"><span class="icon-facebook2"></span></a>
+    <a href="https://www.instagram.com/smukfest/?hl=en"><span class="icon-instagram"></span></a>
+    <a href="https://www.youtube.com/@smukfestDK"><span class="icon-youtube"></span></a>
+  </center>
+</footer>
+
+
+
+
+    <!--Innskráningarform-->
+    <div id="Login" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+      <form method="get" action="takk.html" class="login" id="Login">
+        <fieldset>
+          <legend>Innskráning</legend>
+          <p>Nafn: <input type="text"></p>
+          <p>Lykilorð:<input type="password" required></p>
+          <p><input type="submit" value="Innskrá"></p>
+        </fieldset>
+       </form>
+      </div>
+    </div>
+   
+   
+<!-- Chatbox -->
+<input type="checkbox" id="cbox">
+<label for="cbox" class="cboxtakki"><span class="icon-bubbles2"></span></label>
+<section class="cboxb ">
+  <div class="cbox">
+    <form>
+      <fieldset>
+        <legend>Spjallbox</legend>
+        <p>Nafn: <input type="text"required placeholder="Name"></p>
+        <p>Tölvupóstur:<input type="email" required placeholder="Email"></p>
+        <p>Skilaboð <textarea rows="5" placeholder="Message"></textarea></p>
+        <p><center><input class="submittakki" type="submit" value="Senda"></center></p>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
+
+</body>
+</html>
